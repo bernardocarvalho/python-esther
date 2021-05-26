@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+This file take the csv files writen by the Red Pitaya streaming application 
+https://redpitaya.readthedocs.io/en/latest/appsFeatures/apps-featured/streaming/appStreaming.html
 
-This is a temporary script file.
+and removes the 4 zeros that appear each 16384 samples
+
+
 """
 import sys
 #import matplotlib as plt
